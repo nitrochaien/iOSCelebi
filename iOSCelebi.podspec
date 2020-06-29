@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'iOSCelebi is a Pokemon SDK designing for world peace.'
 
-  s.homepage         = 'https://github.com/nitrochaien/SDKFramework.git'
+  s.homepage         = 'https://github.com/nitrochaien/iOSCelebi.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'namdv' => 'vunam0502@gmail.com' }
-  s.source           = { :git => 'https://github.com/nitrochaien/SDKFramework.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/nitrochaien/iOSCelebi.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
 
 #  s.public_header_files = 'iOSCelebi/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'FBSDKLoginKit'
 end
