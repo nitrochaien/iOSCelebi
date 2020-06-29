@@ -1,0 +1,6 @@
+framework module iOSCelebi {
+  umbrella header "iOSCelebi-umbrella.h"
+
+  export *
+  module * { export * }
+}

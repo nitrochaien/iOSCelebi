@@ -1,0 +1,22 @@
+{
+  "name": "iOSCelebi",
+  "version": "1.1.0",
+  "summary": "iOSCelebi is a SDK for Gaming.",
+  "description": "iOSCelebi is a Pokemon SDK designing for world peace.",
+  "homepage": "https://github.com/nitrochaien/SDKFramework.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "namdv": "vunam0502@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nitrochaien/SDKFramework.git",
+    "tag": "1.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "iOSCelebi/Classes/*.h"
+}
