@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSCelebi'
-  s.version          = '0.2.0'
+  s.version          = '0.5.0'
   s.summary          = 'iOSCelebi is a SDK for Gaming.'
 
 # This description is used to generate tags and improve search results.
@@ -25,16 +25,17 @@ Pod::Spec.new do |s|
   s.author           = { 'namdv' => 'vunam0502@gmail.com' }
   s.source           = { :git => 'https://github.com/nitrochaien/iOSCelebi.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.libraries = 'c++'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'iOSCelebi/Classes/*.h'
+  s.source_files = 'iOSCelebi/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'iOSCelebi' => ['iOSCelebi/Assets/*.png']
   # }
 
-#  s.public_header_files = 'iOSCelebi/Classes/*.h'
+  s.public_header_files = 'iOSCelebi/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'FBSDKLoginKit'
 end

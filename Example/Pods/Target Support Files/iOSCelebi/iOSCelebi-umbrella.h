@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LoginProtocol.h"
+#import "LoginViewController.h"
 
 FOUNDATION_EXPORT double iOSCelebiVersionNumber;
 FOUNDATION_EXPORT const unsigned char iOSCelebiVersionString[];

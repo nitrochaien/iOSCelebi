@@ -9,7 +9,8 @@ PODS:
     - FBSDKLoginKit/Login (= 6.5.0)
   - FBSDKLoginKit/Login (6.5.0):
     - FBSDKCoreKit (~> 6.5.0)
-  - iOSCelebi (1.1.0)
+  - iOSCelebi (0.4.0):
+    - FBSDKLoginKit
 
 DEPENDENCIES:
   - FBSDKLoginKit
@@ -27,7 +28,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSDKCoreKit: bc8ba4b97454bc722823e72584547770b8b48030
   FBSDKLoginKit: 2ab9aac8c26749efbc3c9d09896bb910f5b1311b
-  iOSCelebi: ea1673c07f36c6f38db48f2642cd212e173be100
+  iOSCelebi: 34318dcb9473d31a88f66a418c931867b70e4eb5
 
 PODFILE CHECKSUM: 6816d479476d08bdcd3b6f39e0a446aefcd3ee4e
 

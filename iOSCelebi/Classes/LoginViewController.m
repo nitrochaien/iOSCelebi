@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
-#import "ListViewController.h"
+//#import "ListViewController.h"
 
 @interface LoginViewController ()
 
@@ -35,11 +35,11 @@
 }
 
 - (IBAction)openList:(id)sender {
-    NSString *bundleIdentifier = @"com.namdv.CelebiSDK";
-    NSBundle *bundle = [NSBundle bundleWithIdentifier:bundleIdentifier];
-
-    ListViewController *controller = [[ListViewController alloc]
-                                      initWithNibName:@"ListViewController" bundle:bundle];
-    [self.navigationController pushViewController:controller animated:YES];
+//    NSString *bundleIdentifier = @"com.namdv.CelebiSDK";
+//    NSBundle *bundle = [NSBundle bundleWithIdentifier:bundleIdentifier];
+//
+//    ListViewController *controller = [[ListViewController alloc]
+//                                      initWithNibName:@"ListViewController" bundle:bundle];
+//    [self.navigationController pushViewController:controller animated:YES];
 }
 @end

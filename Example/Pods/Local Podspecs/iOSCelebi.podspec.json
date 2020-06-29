@@ -1,9 +1,9 @@
 {
   "name": "iOSCelebi",
-  "version": "1.1.0",
+  "version": "0.4.0",
   "summary": "iOSCelebi is a SDK for Gaming.",
   "description": "iOSCelebi is a Pokemon SDK designing for world peace.",
-  "homepage": "https://github.com/nitrochaien/SDKFramework.git",
+  "homepage": "https://github.com/nitrochaien/iOSCelebi.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "namdv": "vunam0502@gmail.com"
   },
   "source": {
-    "git": "https://github.com/nitrochaien/SDKFramework.git",
-    "tag": "1.1.0"
+    "git": "https://github.com/nitrochaien/iOSCelebi.git",
+    "tag": "0.4.0"
   },
+  "libraries": "c++",
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "iOSCelebi/Classes/*.h"
+  "source_files": "iOSCelebi/Classes/*.{h,m}",
+  "public_header_files": "iOSCelebi/Classes/*.h",
+  "dependencies": {
+    "FBSDKLoginKit": [
+
+    ]
+  }
 }
