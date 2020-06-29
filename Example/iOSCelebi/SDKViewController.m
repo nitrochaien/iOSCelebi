@@ -7,6 +7,7 @@
 //
 
 #import "SDKViewController.h"
+#import <LoginViewController.h>
 
 @interface SDKViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    LoginViewController *vc = [[LoginViewController alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
